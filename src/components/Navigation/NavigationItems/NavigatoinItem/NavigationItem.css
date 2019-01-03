@@ -3,13 +3,12 @@
     box-sizing: border-box;
     display: block;
     width: 100%;
-    align-items: center;
 }
 
 .NavigationItem a {
     color: #8f5c2c;
     text-decoration: none;
-    height: 100%;    
+    width: 100%;    
     box-sizing: border-box;
     display: block;
 }
@@ -17,10 +16,10 @@
 .NavigationItem a:hover, 
 .NavigationItem a:active,
 .NavigationItem a.active {
-    color: 40A4C8;
+    color: #40A4C8;
 }
 
-@media (min-width: 500px;) {
+@media (min-width: 500px) {
     .NavigationItem {
         margin: 0;
         display: flex;
